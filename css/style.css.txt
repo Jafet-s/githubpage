@@ -1,0 +1,41 @@
+body {
+    margin: 10%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f6f9f9;
+    color: #333;
+}
+
+.avatar {
+    float: left;
+    margin-right: 20px;
+}
+.avatar img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.content {
+    float: left;
+    max-width: 400px;
+}
+.title {
+    font-size: 2.5rem;
+    color: #007BFF;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+.social-icons a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #007BFF;
+}
+.social-icons a:hover {
+    text-decoration: underline;
+}
